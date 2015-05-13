@@ -19,7 +19,7 @@ Clona este repositorio y haz cd a la carpeta que crea. Ingresa en la terminal el
 
 Vas a ver que la aplicacion ya viene con una buena parte del codigo escrito, antes de que escribas cualquier linea trata de entender todo lo que ya esta escrito y que funcion tiene cada linea
 
-### Paso 1: Make Grandma
+### Paso 1: Dale Logica a tu Abuela
 
 Primero, visita [http://localhost:9393/?abuela=hola!](http://localhost:4567/?abuela=hola!).  Si notas como el valor del paremetro `abuela` aparece en la pantalla.  Intenta encontrar en que parte de la aplicacion esta implmentada esta logica.  Como extraemos informacion de los parametros de la URl?
 
