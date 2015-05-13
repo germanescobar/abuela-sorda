@@ -21,7 +21,7 @@ Vas a ver que la aplicacion ya viene con una buena parte del codigo escrito, ant
 
 ### Paso 1: Dale Logica a tu Abuela
 
-Primero, visita [http://localhost:9393/?abuela=hola!](http://localhost:4567/?abuela=hola!).  Si notas como el valor del paremetro `abuela` aparece en la pantalla.  Intenta encontrar en que parte de la aplicacion esta implmentada esta logica.  Como extraemos informacion de los parametros de la URl?
+Primero, visita [http://localhost:4567/?abuela=hola!](http://localhost:4567/?abuela=hola!).  Si notas como el valor del paremetro `abuela` aparece en la pantalla.  Intenta encontrar en que parte de la aplicacion esta implmentada esta logica.  Como extraemos informacion de los parametros de la URl?
 
 Nota: Cuando ingresamos una direccion en el navegador este realiza una peticion con el verbo "get". Nota como esto corrsponde a nuestra ruta get "/" en el archivo abuelasorda.rb
 Trata de cambiar el valor del parametro `abuela` y mira que pasa. Que pasa si cambias el nombre del parametro de "abuela" a "abuelo"?
