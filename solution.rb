@@ -7,7 +7,12 @@ get '/' do
 end
 
 post '/abuela' do
-  "Implenta la ruta  /abuela tu mismo.<br>Params: <code>#{params.inspect}</code>"
+  if params[:input_usuario] == params[:input_usuario].upcase
+    @abuela = "manzana"
+  else
+    @abuela = "Habla mas duro mijito"
+  end
+  redirect "/?abuela=#{@abuela}"
 end
 
 
@@ -69,13 +74,13 @@ end
 
 #HAS DESHONRADO A TUS ANTEPASADOS
 
-# post '/abuela' do
-#   if params[:input_usuario] == params[:input_usuario].upcase
-#     @abuela = "manzana"
-#   else
-#     @abuela = "Habla mas duro mijito"
-#   end
-#   redirect "/?abuela=#{@abuela}"
-# end
+post '/abuela' do
+  if params[:input_usuario] == params[:input_usuario].upcase
+    @abuela = "manzana"
+  else
+    @abuela = "Habla mas duro mijito"
+  end
+  redirect "/?abuela=#{@abuela}"
+end
 
 
